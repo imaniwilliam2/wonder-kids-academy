@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face{
+    font-family: 'myFont';
+    src: url('/fonts/OldeEnglish.ttf')
+}
+
+
+@font-face {
+    font-family: 'bodyFont';
+    src: url('/fonts/VerilySerifMono.otf');
+}
+
+.nav, .phil-title, .different-title, .join-title, .welcome-title, .join-title{
+    font-family: "myFont";
+}
+
+
+.welcome-about, .phil-text, .different-text, .programs-text, .enroll-text{
+    font-family: "bodyFont";
+}
