@@ -15,34 +15,37 @@ function About() {
                     <div class="phil-text">
                         <h2 className="text-xl font-semibold text-navy mt-2">Building Bright Futures Rooted in God’s Truth</h2>
 
-                        <p className="mt-6 text-lg text-gray-700">
+                        <p className="mt-6 text-lg text-gray-700 pb-10">
                             We are dedicated to fostering a love of learning in a nurturing atmosphere steeped in Christian values. At Wonder Kids Academy, we understand that early childhood is a time of incredible growth and discovery. Our approach is designed to:
-                        </p>
+                        </p> 
 
-                        <div class="max-w-4xl mx-auto p-6 space-y-4 bg-navy/50 rounded-xl shadow-md border border-stone-200">
-                            <ul class="space-y-6">
-                                <li class="bg-stone-50 rounded-lg p-6 shadow hover:shadow-lg hover:-translate-y-1 transition duration-300 ease-in-out">
-                                <span class="text-lg text-olive font-medium">
+                    <div class="max-w-4xl mx-auto p-6 space-y-4 bg-navy/50 rounded-xl shadow-md border border-stone-200">
+                        <ul class="grid grid-cols-2 gap-6">
+                            <li class="bg-stone-50 p-6 shadow hover:shadow-lg hover:-translate-y-1 transition duration-300 ease-in-out border-t-4 border-b-4 border-brown h-[200px] w-full flex items-center justify-center">
+                                <span class="text-base text-olive font-medium text-center">
                                     Cultivate Christ-like character in every child through biblical teachings and daily prayer.
                                 </span>
-                                </li>
-                                <li class="bg-stone-50 rounded-lg p-6 shadow hover:shadow-lg hover:-translate-y-1 transition duration-300 ease-in-out">
-                                <span class="text-lg text-olive font-medium">
+                            </li>
+                            <li class="bg-stone-50 p-6 shadow hover:shadow-lg hover:-translate-y-1 transition duration-300 ease-in-out border-t-4 border-b-4 border-brown h-[200px] w-full flex items-center justify-center">
+                                <span class="text-base text-olive font-medium text-center">
                                     Encourage curiosity and creativity by providing hands-on learning experiences tailored to each child’s developmental stage.
                                 </span>
-                                </li>
-                                <li class="bg-stone-50 rounded-lg p-6 shadow hover:shadow-lg hover:-translate-y-1 transition duration-300 ease-in-out">
-                                <span class="text-lg text-olive font-medium">
+                            </li>
+                            <li class="bg-stone-50 p-6 shadow hover:shadow-lg hover:-translate-y-1 transition duration-300 ease-in-out border-t-4 border-b-4 border-brown h-[200px] w-full flex items-center justify-center">
+                                <span class="text-base text-olive font-medium text-center">
                                     Promote a love of learning that lays a strong foundation for academic success.
                                 </span>
-                                </li>
-                                <li class="bg-stone-50 rounded-lg p-6 shadow hover:shadow-lg hover:-translate-y-1 transition duration-300 ease-in-out">
-                                <span class="text-lg text-olive font-medium">
+                            </li>
+                            <li class="bg-stone-50 p-6 shadow hover:shadow-lg hover:-translate-y-1 transition duration-300 ease-in-out border-t-4 border-b-4 border-brown h-[200px] w-full flex items-center justify-center">
+                                <span class="text-base text-olive font-medium text-center">
                                     Partner with families in guiding children’s hearts and minds toward God’s purpose for their lives.
                                 </span>
-                                </li>
-                            </ul>
-                        </div>
+                            </li>
+                        </ul>
+                    </div>
+
+
+
                     </div>
                 </div>
 

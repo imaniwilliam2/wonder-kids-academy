@@ -4,14 +4,14 @@ function Enroll() {
     const [currentSlide, setCurrentSlide] = useState(0);
     const slides = [
         "/assets/photos/stock.jpg",
-        "/assets/photos/placeholder.jpg",
+        "/assets/photos/welcome-stock-photo.jpeg",
         "/assets/photos/placeholder.jpg",
     ];
 
     useEffect(() => {
         const interval = setInterval(() => {
             setCurrentSlide((prev) => (prev + 1) % slides.length);
-        }, 3000); // Change slide every 3 seconds
+        }, 3000);
         return () => clearInterval(interval);
     }, [slides.length]);
 
@@ -27,7 +27,7 @@ function Enroll() {
             <div className="flex flex-col md:flex-row items-center">
                 {/* Photo Carousel */}
                 <div className="md:w-full p-4"> 
-                    <div className="relative h-96 bg-gray-200 flex items-center justify-center"> 
+                    <div className="relative h-96 bg-gray-200 flex items-center justify-center rounded-xl"> 
                         {/* Replace placeholder with actual carousel images */}
                         {slides.map((src, index) => (
                             <div
@@ -39,7 +39,7 @@ function Enroll() {
                                 <img
                                     src={src}
                                     alt={`Slide ${index + 1}`}
-                                    className="w-full h-full object-cover text-xl"
+                                    className="w-full h-full object-cover text-xl rounded-xl"
                                 />
                             </div>
                         ))}
@@ -48,7 +48,7 @@ function Enroll() {
 
                 {/* Main Content */}
                 <div className="enroll-text md:w-1/2 text-center p-4">
-                    <p className="text-gray-700 mb-6 text-xl">
+                    <p className="text-gray-700 mb-6 text-lg">
                         Are you looking for a faith-filled environment where your child can learn, grow, and thrive? At Wonder Kids Academy, we are honored to partner with you in this important season of your child’s life.
                     </p>
                     <div className="flex justify-center mb-6">
@@ -56,10 +56,15 @@ function Enroll() {
                             Enroll Now
                         </button>
                     </div>
-                    <p className="text-gray-700 text-xl">
+                    <div className="flex justify-center mb-6">
+                        <button class="text-base font-bold text-olive inline-block border-2 border-navy/50 p-2 bg-stone-200 hover:shadow-lg hover:-translate-y-1 transition duration-300 ease-in-out">
+                            Take A Virtual Tour
+                        </button>
+                    </div>
+                    <p className="text-gray-700 text-lg">
                         Let’s embark on this journey together. Schedule a tour today or contact us for more information about our programs and enrollment process.
                     </p>
-                    <p className="text-xl font-bold text-gray-700"> Our space is limited, so do not hesitate to take your next steps.</p>
+                    <p className="text-lg font-bold text-brown"> Our space is limited, so do not hesitate to take your next steps.</p>
                 </div>
 
 

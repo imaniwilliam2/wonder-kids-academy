@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 
 function NavBar() {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -32,11 +32,13 @@ function NavBar() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="text-lg font-semibold">
+            <Link to="/">
             <img
               src="assets/photos/WKA (final logo).png"
               alt="logo"
               className="w-24 h-auto ml-20"
             />
+            </Link>
           </div>
 
           {/* Desktop Menu */}

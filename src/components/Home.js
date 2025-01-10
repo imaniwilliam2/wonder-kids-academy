@@ -6,11 +6,10 @@ function Home() {
                 {/* Photo Section */}
                 <div className="relative w-full md:w-1/2 h-[300px] md:h-[500px] overflow-hidden mb-6 md:mb-0">
                     <img
-                        src="/assets/photos/stock.jpg"
+                        src="/assets/photos/welcome-stock-photo.jpeg"
                         alt="Welcome Placeholder"
-                        className="object-cover w-full h-full rounded-xl shadow-lg transform transition-all hover:scale-105"
+                        className="object-cover w-full h-full rounded-xl "
                     />
-                    <div className="absolute inset-0 bg-gradient-to-r from-stone-50 via-stone-50 to-transparent opacity-70"></div>
                 </div>
 
                 {/* Welcome Section */}
