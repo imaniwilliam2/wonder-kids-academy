@@ -1,11 +1,11 @@
 function About() {
     return (
-        <div className="mt-5 mb-16 space-y-8"> 
+        <div className="mt-5 space-y-8"> 
 
             <div className="flex items-center justify-center space-x-4">
 
                 {/* Philosophy Section */}
-                <img src="/assets/photos/placeholder.jpg" alt="placeholder" className="w-70 h-70object-cover" />
+                <img src="/assets/photos/placeholder.jpg" alt="placeholder" className="w-65 h-65 pl-5 object-cover" />
                                     
                 <div className="text-center max-w-4xl mx-auto px-6 py-12">
                     <div className="phil-title">
@@ -15,7 +15,7 @@ function About() {
                     <div class="phil-text">
                         <h2 className="text-xl font-semibold text-navy mt-2">Building Bright Futures Rooted in God’s Truth</h2>
 
-                        <p className="mt-6 text-lg text-gray-700 pb-10">
+                        <p className="mt-6 text-lg text-gray-700 pb-5">
                             We are dedicated to fostering a love of learning in a nurturing atmosphere steeped in Christian values. At Wonder Kids Academy, we understand that early childhood is a time of incredible growth and discovery. Our approach is designed to:
                         </p> 
 
@@ -27,7 +27,7 @@ function About() {
                                 </span>
                             </li>
                             <li class="bg-stone-50 p-6 shadow hover:shadow-lg hover:-translate-y-1 transition duration-300 ease-in-out border-t-4 border-b-4 border-brown h-[200px] w-full flex items-center justify-center">
-                                <span class="text-base text-olive font-medium text-center">
+                                <span class="text-sm text-olive font-medium text-center">
                                     Encourage curiosity and creativity by providing hands-on learning experiences tailored to each child’s developmental stage.
                                 </span>
                             </li>
@@ -49,7 +49,7 @@ function About() {
                     </div>
                 </div>
 
-                <img src="/assets/photos/placeholder.jpg" alt="placeholder" className="w-70 h-70 object-cover" />
+                <img src="/assets/photos/placeholder.jpg" alt="placeholder" className="w-65 h-65 pr-5 object-cover" />
             </div>
 
 

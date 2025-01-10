@@ -8,7 +8,7 @@ function Home() {
                     <img
                         src="/assets/photos/welcome-stock-photo.jpeg"
                         alt="Welcome Placeholder"
-                        className="object-cover w-full h-full rounded-xl "
+                        className="object-cover w-full h-full rounded-xl"
                     />
                 </div>
 

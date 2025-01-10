@@ -2,10 +2,10 @@
 
 function Programs() {
     return (
-        <div className="bg-stone-50">
+        <div className="bg-stone-50 pb-10">
 
             {/* Title Section */}
-            <div class="join-title text-center pt-20 ">
+            <div class="join-title text-center pt-20">
                 <h1 class="text-5xl font-bold text-olive">A Journey of Growth and Faith</h1>
             </div>
 

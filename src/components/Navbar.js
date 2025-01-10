@@ -47,24 +47,28 @@ function NavBar() {
               <NavLink
                 to="/"
                 className="text-4xl text-olive font-semibold hover:text-green transition-colors duration-300"
+                activeClassName="text-green"
               >
                 Home
               </NavLink>
               <NavLink
                 to="/about"
                 className="text-4xl text-olive font-semibold hover:text-green transition-colors duration-300"
+                activeClassName="text-green"
               >
                 About Us
               </NavLink>
               <NavLink
                 to="/programs"
                 className="text-4xl text-olive font-semibold hover:text-green transition-colors duration-300"
+                activeClassName="text-green"
               >
                 Programs
               </NavLink>
               <NavLink
                 to="/enroll"
                 className="text-4xl text-olive font-semibold hover:text-green transition-colors duration-300"
+                activeClassName="text-green"
               >
                 Enroll Now
               </NavLink>
@@ -72,7 +76,7 @@ function NavBar() {
           </div>
 
           {/* Mobile Menu Button */}
-          <button className="md:hidden text-2xl" onClick={toggleMobileMenu}>
+          <button className="md:hidden text-5xl" onClick={toggleMobileMenu}>
             {isMobileMenuOpen ? "✕" : "☰"}
           </button>
         </div>
