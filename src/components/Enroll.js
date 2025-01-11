@@ -6,8 +6,6 @@ function Enroll() {
     const slides = [
         "/assets/photos/HFH04648.jpg",
         "/assets/photos/HFH07739.jpg",
-        "/assets/photos/HFH05094.jpg",
-        "/assets/photos/HFH02371.jpg",
         "/assets/photos/HFH05012.jpg",
         "/assets/photos/HFH07742.jpg",
     ];
@@ -42,6 +40,7 @@ function Enroll() {
                                     }`}
                                 >
                                     <img
+                                        rel="preload"
                                         src={src}
                                         alt={`Slide ${index + 1}`}
                                         className="w-full h-full object-cover text-xl rounded-xl"

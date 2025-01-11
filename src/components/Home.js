@@ -6,6 +6,7 @@ function Home() {
                 {/* Photo Section */}
                 <div className="relative w-full md:w-1/2 h-[300px] md:h-[500px] overflow-hidden mb-6 md:mb-0">
                     <img
+                        rel="preload"
                         src="/assets/photos/HFH04607.jpg"
                         alt="Welcome Placeholder"
                         className="object-cover w-full h-full rounded-xl"

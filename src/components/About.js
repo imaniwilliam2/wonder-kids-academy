@@ -5,7 +5,7 @@ function About() {
             <div className="flex items-center justify-center space-x-4">
 
                 {/* Philosophy Section */}
-                <img src="/assets/photos/HFH02823.jpg" alt="placeholder" className="w-80 h-full object-cover rounded-xl ml-2" />
+                <img rel="preload" src="/assets/photos/HFH02823.jpg" alt="placeholder" className="w-80 h-full object-cover rounded-xl ml-2" />
                                     
                 <div className="text-center max-w-4xl mx-auto px-6 py-12">
                     <div className="phil-title">
@@ -49,13 +49,13 @@ function About() {
                     </div>
                 </div>
 
-                <img src="/assets/photos/HFH00161.jpg" alt="placeholder" className="w-80 h-full object-cover rounded-xl mr-2" />
+                <img rel="preload" src="/assets/photos/HFH00161.jpg" alt="placeholder" className="w-80 h-full object-cover rounded-xl mr-2" />
             </div>
 
 
             {/* Different Section */}
             <div className="mt-16 pt-8 pb-8 bg-stone-100">
-                <div class="different-title">
+                <div className="different-title">
                     <h1 className='text-5xl text-olive font-bold  text-center max-w-4xl mx-auto'>What Makes Us Different</h1>
                 </div>
 
@@ -64,42 +64,42 @@ function About() {
 
 
 
-                    <div class="mt-10 flex flex-col items-center text-center mb-20">
-                        <img src="/assets/photos/HFH00164.jpg" alt="placeholder" className="mb-4 w-1/6 h-full rounded-xl"/>
-                        <h1 class="text-xl font-bold text-olive max-w-4xl mx-auto border-2 border-navy/50 p-2 bg-stone-200 hover:shadow-lg hover:-translate-y-1 transition duration-300 ease-in-out">
+                    <div className="mt-10 flex flex-col items-center text-center mb-20">
+                        <img rel="preload" src="/assets/photos/HFH00164.jpg" alt="placeholder" className="mb-4 w-1/6 h-full rounded-xl"/>
+                        <h1 className="text-xl font-bold text-olive max-w-4xl mx-auto border-2 border-navy/50 p-2 bg-stone-200 hover:shadow-lg hover:-translate-y-1 transition duration-300 ease-in-out">
                             Christ-Centered Curriculum
                         </h1>
-                        <h1 class="max-w-4xl mx-auto pt-2">
+                        <h1 className="max-w-4xl mx-auto pt-2">
                             With the use of Abeka, the nation's top faith-based curriculum, we integrate Christian teachings into every subject, providing children with a strong foundation in both faith and academics. Through Bible stories, worship, and scripture memorization, we teach children about God’s love and His plan for their lives. A highlight of our week is Chapel service, where children come together in worship, hear age-appropriate Bible lessons, and experience the joy of praising God as a community. These moments reinforce the biblical principles taught in the classroom and inspire a deeper connection to Christ
                         </h1>
                     </div>
 
-                    <div class="mt-10 flex flex-col items-center text-center mb-20">
-                        <img src="/assets/photos/HFH04544.jpg" alt="placeholder" className="mb-4 w-2/6 h-full rounded-xl"/>
-                        <h1 class="text-xl font-bold text-olive max-w-4xl mx-auto border-2 border-navy/50 p-2 bg-stone-200 hover:shadow-lg hover:-translate-y-1 transition duration-300 ease-in-out">
+                    <div className="mt-10 flex flex-col items-center text-center mb-20">
+                        <img rel="preload" src="/assets/photos/HFH04544.jpg" alt="placeholder" className="mb-4 w-2/6 h-full rounded-xl"/>
+                        <h1 className="text-xl font-bold text-olive max-w-4xl mx-auto border-2 border-navy/50 p-2 bg-stone-200 hover:shadow-lg hover:-translate-y-1 transition duration-300 ease-in-out">
                             Loving and Qualified Teachers
                         </h1>
-                        <h1 class="max-w-4xl mx-auto pt-2">
+                        <h1 className="max-w-4xl mx-auto pt-2">
                             Our educators are more than just teachers, they are caregivers, role models, and prayer warriors. Each staff member is committed to reflecting Christ’s love and fostering a joyful, safe environment where every child feels valued.
                         </h1>
                     </div>
 
-                    <div class="mt-10 flex flex-col items-center text-center mb-20">
-                        <img src="/assets/photos/HFH02381.jpg" alt="placeholder" className="mb-4 w-1/6 h-full rounded-xl"/>
-                        <h1 class="text-xl font-bold text-olive max-w-4xl mx-auto border-2 border-navy/50 p-2 bg-stone-200 hover:shadow-lg hover:-translate-y-1 transition duration-300 ease-in-out">
+                    <div className="mt-10 flex flex-col items-center text-center mb-20">
+                        <img rel="preload" src="/assets/photos/HFH02381.jpg" alt="placeholder" className="mb-4 w-1/6 h-full rounded-xl"/>
+                        <h1 className="text-xl font-bold text-olive max-w-4xl mx-auto border-2 border-navy/50 p-2 bg-stone-200 hover:shadow-lg hover:-translate-y-1 transition duration-300 ease-in-out">
                             Hands-On Learning
                         </h1>
-                        <h1 class="max-w-4xl mx-auto pt-2">
+                        <h1 className="max-w-4xl mx-auto pt-2">
                             We believe that children learn best through exploration and play. Our classrooms are designed to engage young minds with interactive activities, outdoor adventures, and creative expression, all while pointing them toward God’s handiwork in the world.
                         </h1>
                     </div>
 
-                    <div class="mt-10 flex flex-col items-center text-center mb-20">
-                        <img src="/assets/photos/HFH04554.jpg" alt="placeholder" className="mb-4 w-2/6 h-full rounded-xl"/>
-                        <h1 class="text-xl font-bold text-olive max-w-4xl mx-auto border-2 border-navy/50 p-2 bg-stone-200 hover:shadow-lg hover:-translate-y-1 transition duration-300 ease-in-out">
+                    <div className="mt-10 flex flex-col items-center text-center mb-20">
+                        <img rel="preload" src="/assets/photos/HFH04554.jpg" alt="placeholder" className="mb-4 w-2/6 h-full rounded-xl"/>
+                        <h1 className="text-xl font-bold text-olive max-w-4xl mx-auto border-2 border-navy/50 p-2 bg-stone-200 hover:shadow-lg hover:-translate-y-1 transition duration-300 ease-in-out">
                             Community and Partnership
                         </h1>
-                        <h1 class="max-w-4xl mx-auto pt-2">
+                        <h1 className="max-w-4xl mx-auto pt-2">
                             At Wonder Kids Academy, we view parents as essential partners in their child’s education and spiritual growth. Through open communication, family events, and shared faith practices, we strive to build a strong community of believers working together for each child’s success.
                         </h1>
                     </div>
