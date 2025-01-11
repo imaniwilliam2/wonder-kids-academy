@@ -13,7 +13,7 @@
     src: url('/fonts/VerilySerifMono.otf');
 }
 
-.nav, .phil-title, .different-title, .join-title, .welcome-title, .join-title{
+.nav, .phil-title, .different-title, .join-title, .welcome-title-div, .join-title{
     font-family: "myFont";
 }
 
@@ -22,3 +22,189 @@
     font-family: "bodyFont";
 }
 
+@media only screen and (max-width: 750px) {
+    .home-photo{
+        height: auto;
+        width: 400px;
+    }
+
+    .welcome-about-text{
+        font-size: 15px;
+    }
+     
+    .phil-subtitle{
+        font-size: 15px;
+    }
+
+    .phil-title{
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+
+    .footer-add, .footer-number{
+        font-size: 12px;
+    }
+    
+    .phil-one-photo, .phil-two-photo {
+        display: none;
+
+    }
+    
+    .phil-title {
+        font-size: 2rem; 
+    }
+
+    
+    .phil-subtitle {
+        font-size: 1rem; 
+    }
+
+    
+    .phil-text {
+        font-size: .5rem; 
+    }
+
+  
+    .phil-points {
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+      
+      
+    .phil-points ul {
+        grid-template-columns: 1fr; 
+    }
+    
+    .phil-points li {
+        height: auto;
+        width: 75%;
+        margin-left: 5px;
+    }
+
+    
+    .phil-subtext {
+        font-size: 1rem; 
+    }
+
+    
+    .different-title {
+        font-size: 2.5rem; 
+    }
+
+    .different-text {
+        font-size: 1rem; 
+    }
+
+    .different-points-title {
+        font-size: 1.25rem; 
+    }
+
+    .different-points-text {
+        font-size: 0.9rem; 
+    }
+
+    .different-points-image {
+        width: 50%;  
+        margin-bottom: 1rem;
+    }
+
+    .different-points-image-vertical{
+        width: 35%;
+    }
+
+  
+    .text-center {
+        padding: 0 1rem; 
+    }
+
+    .space-y-8 {
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .welcome-title{
+        font-size: 2rem;
+    }
+
+    .welcome-statement{
+        font-size: 1.5rem;
+    }
+    .home-photo{
+        height: auto;
+        width: 200px;
+        margin-top: 75px;
+    }
+
+    .welcome-about-text{
+        font-size: 14px;
+    }
+     
+
+    .phil-title {
+        font-size: 1.5rem;
+    }
+
+    .phil-subtitle {
+        font-size: 1rem; 
+    }
+
+    .phil-text {
+        font-size: 0.7rem; 
+        overflow-wrap: anywhere; 
+    }
+
+    .phil-one-photo, .phil-two-photo {
+        display: none;
+    }
+
+    .phil-points {
+      width: 400px;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    
+    
+    .phil-points ul {
+      grid-template-columns: 1fr; 
+    }
+  
+    .phil-points li {
+      height: auto;
+      width: 75%;
+    }
+  
+}
+
+
+
+@media only screen and (max-width: 480px) {
+
+    .different-title {
+        font-size: 1.25rem; 
+    }
+
+    .different-points-title {
+        font-size: 1rem; 
+    }
+
+    .different-points-text {
+        font-size: 0.85rem; 
+    }
+
+  
+    .different-points-image {
+        width: 75%; 
+    }
+
+    .different-points-image-vertical {
+        width: 50%;
+    }
+
+    .different-points-title, .different-points-text {
+        padding: 1rem;
+    }
+}

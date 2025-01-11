@@ -10,7 +10,6 @@ function NavBar() {
     setMobileMenuOpen(!isMobileMenuOpen);
   };
 
-  // Handle scroll to change navbar background
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 50);

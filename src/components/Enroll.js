@@ -7,7 +7,6 @@ function Enroll() {
         "/assets/photos/HFH04648.jpg",
         "/assets/photos/HFH07739.jpg",
         "/assets/photos/HFH05012.jpg",
-        "/assets/photos/HFH07742.jpg",
     ];
 
     useEffect(() => {
