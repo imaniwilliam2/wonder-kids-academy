@@ -1,11 +1,15 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 function Enroll() {
     const [currentSlide, setCurrentSlide] = useState(0);
     const slides = [
-        "/assets/photos/stock.jpg",
-        "/assets/photos/welcome-stock-photo.jpeg",
-        "/assets/photos/placeholder.jpg",
+        "/assets/photos/HFH04648.jpg",
+        "/assets/photos/HFH07739.jpg",
+        "/assets/photos/HFH05094.jpg",
+        "/assets/photos/HFH02371.jpg",
+        "/assets/photos/HFH05012.jpg",
+        "/assets/photos/HFH07742.jpg",
     ];
 
     useEffect(() => {
@@ -16,9 +20,9 @@ function Enroll() {
     }, [slides.length]);
 
     return (
-        <div className="p-6 max-w-6xl mx-auto pt-20 pb-10">
+        <div className="enroll-div p-6 max-w-6xl mx-auto pt-20 pb-10">
             {/* Title Section */}
-            <div class="join-title">
+            <div className="join-title">
                 <h1 className="text-5xl text-olive font-bold text-center mb-8">
                     Join the Wonder Kids Family
                 </h1>
@@ -53,13 +57,15 @@ function Enroll() {
                             Are you looking for a faith-filled environment where your child can learn, grow, and thrive? At Wonder Kids Academy, we are honored to partner with you in this important season of your child’s life.
                         </p>
                         <div className="flex justify-center mb-6">
-                            <button class="text-lg font-bold text-olive inline-block border-2 border-navy/50 p-2 bg-stone-200 hover:shadow-lg hover:-translate-y-1 transition duration-300 ease-in-out">
+                            <button className="text-lg font-bold text-olive inline-block border-2 border-navy/50 p-2 bg-stone-200 hover:shadow-lg hover:-translate-y-1 transition duration-300 ease-in-out">
                                 Enroll Now
                             </button>
                         </div>
                         <div className="flex justify-center mb-6">
-                            <button class="text-base font-bold text-olive inline-block border-2 border-navy/50 p-2 bg-stone-200 hover:shadow-lg hover:-translate-y-1 transition duration-300 ease-in-out">
+                            <button className="text-base font-bold text-olive inline-block border-2 border-navy/50 p-2 bg-stone-200 hover:shadow-lg hover:-translate-y-1 transition duration-300 ease-in-out">
+                            <Link to="https://my.matterport.com/show/?m=W1NXSP2dzka">
                                 Take A Virtual Tour
+                            </Link>
                             </button>
                         </div>
                         <p className="text-gray-700 text-base">

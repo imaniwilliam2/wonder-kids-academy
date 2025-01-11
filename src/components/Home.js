@@ -1,19 +1,19 @@
 function Home() {
     return (
-        <div className=" min-h-screen flex flex-col">
+        <div className="home-div min-h-screen flex flex-col">
             {/* Header Section */}
             <div className="relative flex items-center justify-center text-center py-16 px-6 md:px-12">
                 {/* Photo Section */}
                 <div className="relative w-full md:w-1/2 h-[300px] md:h-[500px] overflow-hidden mb-6 md:mb-0">
                     <img
-                        src="/assets/photos/welcome-stock-photo.jpeg"
+                        src="/assets/photos/HFH04607.jpg"
                         alt="Welcome Placeholder"
                         className="object-cover w-full h-full rounded-xl"
                     />
                 </div>
 
                 {/* Welcome Section */}
-                <div class="welcome-title">
+                <div className="welcome-title">
                     <div className="flex-1 md:pl-12">
                         <h1 className="text-4xl md:text-6xl font-extrabold text-olive mb-4 drop-shadow-md shadow-slate-900">Welcome to Wonder Kids Academy</h1>
                         <p className="text-2xl text-navy opacity-90 mb-4 max-w-2xl mx-auto">

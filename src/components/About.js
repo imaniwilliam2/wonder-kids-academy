@@ -1,43 +1,43 @@
 function About() {
     return (
-        <div className="mt-5 space-y-8"> 
+        <div className="about-div mt-5 space-y-8"> 
 
             <div className="flex items-center justify-center space-x-4">
 
                 {/* Philosophy Section */}
-                <img src="/assets/photos/placeholder.jpg" alt="placeholder" className="w-65 h-65 pl-5 object-cover" />
+                <img src="/assets/photos/HFH02823.jpg" alt="placeholder" className="w-80 h-full object-cover rounded-xl ml-2" />
                                     
                 <div className="text-center max-w-4xl mx-auto px-6 py-12">
                     <div className="phil-title">
                         <h1 className="text-5xl font-bold text-olive">Our Philosophy</h1>
                     </div>
 
-                    <div class="phil-text">
+                    <div className="phil-text">
                         <h2 className="text-xl font-semibold text-navy mt-2">Building Bright Futures Rooted in God’s Truth</h2>
 
                         <p className="mt-6 text-lg text-gray-700 pb-5">
                             We are dedicated to fostering a love of learning in a nurturing atmosphere steeped in Christian values. At Wonder Kids Academy, we understand that early childhood is a time of incredible growth and discovery. Our approach is designed to:
                         </p> 
 
-                    <div class="max-w-4xl mx-auto p-6 space-y-4 bg-navy/50 rounded-xl shadow-md border border-stone-200">
-                        <ul class="grid grid-cols-2 gap-6">
-                            <li class="bg-stone-50 p-6 shadow hover:shadow-lg hover:-translate-y-1 transition duration-300 ease-in-out border-t-4 border-b-4 border-brown h-[200px] w-full flex items-center justify-center">
-                                <span class="text-base text-olive font-medium text-center">
+                    <div className="max-w-4xl mx-auto p-6 space-y-4 bg-navy/50 rounded-xl shadow-md border border-stone-200">
+                        <ul className="grid grid-cols-2 gap-6">
+                            <li className="bg-stone-50 p-6 shadow hover:shadow-lg hover:-translate-y-1 transition duration-300 ease-in-out border-t-4 border-b-4 border-brown h-[200px] w-full flex items-center justify-center">
+                                <span className="text-base text-olive font-medium text-center">
                                     Cultivate Christ-like character in every child through biblical teachings and daily prayer.
                                 </span>
                             </li>
-                            <li class="bg-stone-50 p-6 shadow hover:shadow-lg hover:-translate-y-1 transition duration-300 ease-in-out border-t-4 border-b-4 border-brown h-[200px] w-full flex items-center justify-center">
-                                <span class="text-sm text-olive font-medium text-center">
+                            <li className="bg-stone-50 p-6 shadow hover:shadow-lg hover:-translate-y-1 transition duration-300 ease-in-out border-t-4 border-b-4 border-brown h-[200px] w-full flex items-center justify-center">
+                                <span className="text-sm text-olive font-medium text-center">
                                     Encourage curiosity and creativity by providing hands-on learning experiences tailored to each child’s developmental stage.
                                 </span>
                             </li>
-                            <li class="bg-stone-50 p-6 shadow hover:shadow-lg hover:-translate-y-1 transition duration-300 ease-in-out border-t-4 border-b-4 border-brown h-[200px] w-full flex items-center justify-center">
-                                <span class="text-base text-olive font-medium text-center">
+                            <li className="bg-stone-50 p-6 shadow hover:shadow-lg hover:-translate-y-1 transition duration-300 ease-in-out border-t-4 border-b-4 border-brown h-[200px] w-full flex items-center justify-center">
+                                <span className="text-base text-olive font-medium text-center">
                                     Promote a love of learning that lays a strong foundation for academic success.
                                 </span>
                             </li>
-                            <li class="bg-stone-50 p-6 shadow hover:shadow-lg hover:-translate-y-1 transition duration-300 ease-in-out border-t-4 border-b-4 border-brown h-[200px] w-full flex items-center justify-center">
-                                <span class="text-base text-olive font-medium text-center">
+                            <li className="bg-stone-50 p-6 shadow hover:shadow-lg hover:-translate-y-1 transition duration-300 ease-in-out border-t-4 border-b-4 border-brown h-[200px] w-full flex items-center justify-center">
+                                <span className="text-base text-olive font-medium text-center">
                                     Partner with families in guiding children’s hearts and minds toward God’s purpose for their lives.
                                 </span>
                             </li>
@@ -49,7 +49,7 @@ function About() {
                     </div>
                 </div>
 
-                <img src="/assets/photos/placeholder.jpg" alt="placeholder" className="w-65 h-65 pr-5 object-cover" />
+                <img src="/assets/photos/HFH00161.jpg" alt="placeholder" className="w-80 h-full object-cover rounded-xl mr-2" />
             </div>
 
 
@@ -65,7 +65,7 @@ function About() {
 
 
                     <div class="mt-10 flex flex-col items-center text-center mb-20">
-                        <img src="/assets/photos/placeholder.jpg" alt="placeholder" className="mb-4"/>
+                        <img src="/assets/photos/HFH00164.jpg" alt="placeholder" className="mb-4 w-1/6 h-full rounded-xl"/>
                         <h1 class="text-xl font-bold text-olive max-w-4xl mx-auto border-2 border-navy/50 p-2 bg-stone-200 hover:shadow-lg hover:-translate-y-1 transition duration-300 ease-in-out">
                             Christ-Centered Curriculum
                         </h1>
@@ -75,7 +75,7 @@ function About() {
                     </div>
 
                     <div class="mt-10 flex flex-col items-center text-center mb-20">
-                        <img src="/assets/photos/placeholder.jpg" alt="placeholder" className="mb-4"/>
+                        <img src="/assets/photos/HFH04544.jpg" alt="placeholder" className="mb-4 w-2/6 h-full rounded-xl"/>
                         <h1 class="text-xl font-bold text-olive max-w-4xl mx-auto border-2 border-navy/50 p-2 bg-stone-200 hover:shadow-lg hover:-translate-y-1 transition duration-300 ease-in-out">
                             Loving and Qualified Teachers
                         </h1>
@@ -85,7 +85,7 @@ function About() {
                     </div>
 
                     <div class="mt-10 flex flex-col items-center text-center mb-20">
-                        <img src="/assets/photos/placeholder.jpg" alt="placeholder" className="mb-4"/>
+                        <img src="/assets/photos/HFH02381.jpg" alt="placeholder" className="mb-4 w-1/6 h-full rounded-xl"/>
                         <h1 class="text-xl font-bold text-olive max-w-4xl mx-auto border-2 border-navy/50 p-2 bg-stone-200 hover:shadow-lg hover:-translate-y-1 transition duration-300 ease-in-out">
                             Hands-On Learning
                         </h1>
@@ -95,7 +95,7 @@ function About() {
                     </div>
 
                     <div class="mt-10 flex flex-col items-center text-center mb-20">
-                        <img src="/assets/photos/placeholder.jpg" alt="placeholder" className="mb-4"/>
+                        <img src="/assets/photos/HFH04554.jpg" alt="placeholder" className="mb-4 w-2/6 h-full rounded-xl"/>
                         <h1 class="text-xl font-bold text-olive max-w-4xl mx-auto border-2 border-navy/50 p-2 bg-stone-200 hover:shadow-lg hover:-translate-y-1 transition duration-300 ease-in-out">
                             Community and Partnership
                         </h1>
