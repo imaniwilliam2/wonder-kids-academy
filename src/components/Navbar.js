@@ -42,7 +42,7 @@ function NavBar() {
 
           {/* Desktop Menu */}
           <div className="nav">
-            <div className="hidden md:flex space-x-14">
+            <div className="hidden lg:flex space-x-14">
               <NavLink
                 to="/"
                 className="text-4xl text-olive font-semibold hover:text-green transition-colors duration-300"
@@ -71,7 +71,7 @@ function NavBar() {
           </div>
 
           {/* Mobile Menu Button */}
-          <button className="md:hidden text-5xl" onClick={toggleMobileMenu}>
+          <button className="lg:hidden text-5xl" onClick={toggleMobileMenu}>
             {isMobileMenuOpen ? "✕" : "☰"}
           </button>
         </div>

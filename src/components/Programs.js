@@ -30,7 +30,7 @@ function Programs() {
 
                     <div className="program-li-div text-center">
                     <h1 className="text-base font-bold text-olive inline-block border-2 border-navy/50 p-2 bg-stone-200 hover:shadow-lg hover:-translate-y-1 transition duration-300 ease-in-out mb-5">Preschool (3 - 4 years)</h1>
-                        <img rel="preload" src="/assets/photos/HFH00148.jpg" alt="placeholder" className="program-li-img-three mb-4 mx-auto h-2/5 rounded-xl mx-[-8.5rem]"/>
+                        <img rel="preload" src="/assets/photos/HFH00148.jpg" alt="placeholder" className="program-li-img-three mb-4 mx-auto h-2/5 rounded-xl  mx-[-8.5rem]"/>
                         <h2 className="program-li-text text-default text-gray-700">Our preschool program focuses on preparing children for the next phase of their educational journey. Through structured play and thematic learning, children build essential literacy, numeracy, and problem-solving skills while developing their social and emotional intelligence.</h2>
                     </div>
                 </div>

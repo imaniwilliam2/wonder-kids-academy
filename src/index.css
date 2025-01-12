@@ -137,7 +137,7 @@
 
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 450px) {
     .join-title{
         padding-top: 20px;
     }
@@ -292,7 +292,7 @@
     }
   
     .phil-points .phil-points {
-      font-size: 0.875rem; /* Slightly reduce text size for readability */
+      font-size: 0.875rem;
     }
 
     .phil-one-photo, .phil-two-photo {
@@ -310,4 +310,36 @@
         margin-right: 2rem;
     }
   }
-  
+
+@media only screen and (max-width: 390px) {
+    
+    .program-li-img-one{
+        margin-right: 600px;
+    }
+
+    .program-li-img-two {
+        margin-right: 600px;
+    }
+
+    .program-li-text {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+
+
+    .program-li-img-one {
+        margin-right: 600px;
+    }
+
+    .program-li-img-two {
+        margin-right: 600px;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .program-li-img-one, .program-li-img-two {
+        margin-right: 600px;
+    }
+}
