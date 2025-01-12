@@ -56,7 +56,9 @@ function Enroll() {
                         </p>
                         <div className="flex justify-center mb-6">
                             <button className="text-lg font-bold text-olive inline-block border-2 border-navy/50 p-2 bg-stone-200 hover:shadow-lg hover:-translate-y-1 transition duration-300 ease-in-out">
+                            <Link to="https://form.jotform.com/250098411592154">
                                 Enroll Now
+                            </Link>
                             </button>
                         </div>
                         <div className="flex justify-center mb-6">
