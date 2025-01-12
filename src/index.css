@@ -279,3 +279,35 @@
         padding: 1rem;
     }
 }
+
+
+@media only screen and (min-width: 750px) and (max-width: 1400px) {
+    .phil-points ul {
+      grid-template-columns: repeat(2, 1fr); 
+    }
+  
+    .phil-points li {
+      height: auto; 
+      padding: 50px; 
+    }
+  
+    .phil-points .phil-points {
+      font-size: 0.875rem; /* Slightly reduce text size for readability */
+    }
+
+    .phil-one-photo, .phil-two-photo {
+        height: auto;
+        width: 200px;
+    }
+
+    .phil-one-photo {
+        margin-top: 200px;
+        margin-right: -20px;
+    }
+
+    .phil-two-photo {
+        margin-top: 200px;
+        margin-right: 2rem;
+    }
+  }
+  

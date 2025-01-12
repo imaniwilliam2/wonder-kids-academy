@@ -5,7 +5,7 @@ function About() {
             <div className="flex items-center justify-center space-x-4">
 
                 {/* Philosophy Section */}
-                <img rel="preload" src="/assets/photos/HFH02823.jpg" alt="placeholder" className="phil-one-photo w-80 h-full object-cover rounded-xl ml-2" />
+                <img rel="preload" src="/assets/photos/HFH02823.jpg" alt="placeholder" className="phil-one-photo w-80 h-full object-cover rounded-xl ml-2 mt-40" />
                                     
                 <div className="text-center max-w-4xl mx-auto px-6 py-12">
                     <div className="phil-title">
@@ -49,7 +49,7 @@ function About() {
                     </div>
                 </div>
 
-                <img rel="preload" src="/assets/photos/HFH00161.jpg" alt="placeholder" className="phil-two-photo w-80 h-full object-cover rounded-xl mr-2" />
+                <img rel="preload" src="/assets/photos/HFH00161.jpg" alt="placeholder" className="phil-two-photo w-80 h-full object-cover rounded-xl mr-2 mt-40 " />
             </div>
 
 
