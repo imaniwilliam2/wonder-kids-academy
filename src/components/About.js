@@ -56,7 +56,7 @@ function About() {
             {/* Different Section */}
             <div className="mt-16 pt-8 pb-8 bg-stone-100">
                 <div className="different-title">
-                    <h1 className='different-titletext-5xl text-olive font-bold  text-center max-w-4xl mx-auto'>What Makes Us Different</h1>
+                    <h1 className='different-title text-5xl text-olive font-bold  text-center max-w-4xl mx-auto'>What Makes Us Different</h1>
                 </div>
 
                 <div className="different-text">

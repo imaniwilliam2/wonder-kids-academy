@@ -26,10 +26,12 @@
     .home-photo{
         height: auto;
         width: 400px;
+        margin-top: 2rem ;
     }
 
     .welcome-about-text{
         font-size: 15px;
+        padding-bottom: 4.5rem;
     }
      
     .phil-subtitle{
@@ -123,6 +125,65 @@
     .space-y-8 {
         margin-top: 2rem;
     }
+
+    .enroll-image{
+        display: none;
+    }
+
+    .enroll-text {
+        margin-top: -400px;
+        margin-bottom: 100px;
+    }
+
+}
+
+@media only screen and (max-width: 750px) {
+    .join-title{
+        padding-top: 20px;
+    }
+
+    .programs-subtext{
+        font-size: 15px;
+    }
+    .programs-text-div {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem; 
+        padding-left: 0; 
+    }
+
+
+    .program-li-div-two{
+        margin-top: 10rem;
+    }
+    .program-li-img-one{
+        height: 400px;
+        margin-left: -50px;
+    }
+
+    .program-li-img-two {
+        height: 400px;
+        margin-left: -70px;
+    }
+
+    .program-li-text {
+        font-size: 15px;
+    }
+
+
+    .program-li-img-three {
+        height: 400px;
+    }
+
+    
+    .join-title h1 {
+        font-size: 2rem;
+    }
+
+    .programs-subtext {
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
 
 @media (max-width: 480px) {
@@ -141,6 +202,7 @@
 
     .welcome-about-text{
         font-size: 14px;
+        
     }
      
 
@@ -176,8 +238,17 @@
       height: auto;
       width: 75%;
     }
+
+    .program-li-img-one {
+        margin-left: -185px;
+    }
+
+    .program-li-img-two {
+        margin-left: -200px;
+    } 
   
 }
+
 
 
 

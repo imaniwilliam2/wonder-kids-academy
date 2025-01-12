@@ -42,7 +42,7 @@ function Enroll() {
                                         rel="preload"
                                         src={src}
                                         alt={`Slide ${index + 1}`}
-                                        className="w-full h-full object-cover text-xl rounded-xl"
+                                        className="enroll-image w-full h-full object-cover text-xl rounded-xl"
                                     />
                                 </div>
                             ))}
